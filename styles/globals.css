@@ -1,10 +1,34 @@
 html,
 body {
+  background: linear-gradient(132deg, rgba(255, 6, 77, 0.882), rgba(200, 55, 19, 0.416) 50%);
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
+nav {
+  background: linear-gradient(132deg, rgba(255, 6, 77, 0.882), rgb(79,59,96) 100%);
+  color: white;
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  padding: 20px;
+  margin-left: 0px;
+
+
+            
+}
+.boton > Link {
+  color: white;
+}
+
+.boton:hover {
+  background-color: bisque;
+  text-decoration: none;
+  color: black;
+}
 .texto {
   color: aqua;
   font-size: 40px;
@@ -18,13 +42,13 @@ a {
 * {
   box-sizing: border-box;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: black;
+    background: linear-gradient(132deg, rgb(7, 18, 224), rgba(2, 6, 43, 0.592) 70.71%)
   }
-}
+} */
