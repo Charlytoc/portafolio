@@ -1,36 +1,20 @@
 "use client"
 import gsap from "gsap"
 import { useEffect } from "react"
-import styles from "../styles/landing.module.css"
+import HeadText from "../components/headText"
+// import styles from "../styles/landing.module.css"
+import imagen from "../utils/images/fotorfolio.png"
+import Image from 'next/image'
 
 export default function HomePage () {
 
-    // const animation = () => {
-    //     let items = document.querySelector(".texto")
-    //     gsap.from(items, {
-    //         opacity: 0.5, duration: 1
-    //     })
-    // }
-
-    // useEffect(()=>{
-    //     animation()
-    // }, [])
 
     return <>
-    {/* <div className="container w-100 landing">
-        <div className="row">
-            <div className={`col-xs-10 p-3 text-center m-2 texto`}>ABOUT
-            </div>
-        </div>
-        <div className="row w-100">
-            <div className="col-12 p-3 text-center m-2 texto">PROJECTS</div>
-        </div>
-        <div className="row w-100">
-            <div className="col-12 text-center p-3 m-2 texto">CONTACT</div>
-        </div>
-    </div> */}
     <div className="row">
-        <div className="col-5 col-lg-12 text-center">HOLA</div>
+        <div id="fondo" className="col-5 col-lg-12 text-center">developer</div>
+        <HeadText />
+        {/* <div className="col-lg-6 bg-dark"> <Image style={{height: "auto"}} width={200} alt="..." src={imagen} /></div> */}
+        
     </div>
     </>
 }

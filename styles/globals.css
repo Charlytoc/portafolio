@@ -16,7 +16,9 @@ nav {
   gap: 32px;
   padding: 20px;
   margin-left: 0px;
-  color: rgba(74, 6, 6, 0.908);
+  color: rgba(11, 2, 44, 0.908);
+  position: sticky;
+  top: 40;
 
 
             
@@ -47,6 +49,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#fondo {
+  background-color: rgb(255, 255, 255);
+  color: rgba(240, 240, 240, 0.5);
+  width: 100%;
+  font-size: 10em;
+  text-shadow: 3px 3px rgba(84, 75, 75, 0.05) ;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.textomenu {
+  font-size: 30px;
 }
 /* 
 @media (prefers-color-scheme: dark) {
