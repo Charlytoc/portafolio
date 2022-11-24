@@ -1,6 +1,6 @@
 html,
 body {
-  background: linear-gradient(132deg, rgba(255, 6, 77, 0.882), rgba(200, 55, 19, 0.416) 50%);
+  background: linear-gradient(132deg, rgba(255, 255, 255, 0.882), rgba(255, 255, 255, 0.918));
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -8,14 +8,15 @@ body {
   height: 100%;
 }
 
+
 nav {
-  background: linear-gradient(132deg, rgba(255, 6, 77, 0.882), rgb(79,59,96) 100%);
+  background: linear-gradient(132deg, rgba(228, 224, 225, 0.882), rgb(240, 240, 240) 100%);
   color: white;
-  display: flex;
   list-style: none;
   gap: 32px;
   padding: 20px;
   margin-left: 0px;
+  color: rgba(74, 6, 6, 0.908);
 
 
             
@@ -39,6 +40,11 @@ a {
   text-decoration: none;
 }
 
+.landing {
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -52,3 +58,5 @@ a {
     background: linear-gradient(132deg, rgb(7, 18, 224), rgba(2, 6, 43, 0.592) 70.71%)
   }
 } */
+
+
