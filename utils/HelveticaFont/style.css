@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Charly';
+    src: local('Helvetica Now Display Black'), local('Helvetica-Now-Display-Black'),
+        url('HelveticaNowDisplay-BlackIta.woff2') format('woff2'),
+        url('HelveticaNowDisplay-BlackIta.woff') format('woff'),
+        url('HelveticaNowDisplay-BlackIta.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Carlos';
+    src: local('Helvetica Now Display Extrabold'), local('Helvetica-Now-Display-Extrabold'),
+        url('HelveticaNowDisplay-ExtraBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }

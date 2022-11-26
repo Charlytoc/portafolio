@@ -1,19 +1,23 @@
 "use client"
-import gsap from "gsap"
-import { useEffect } from "react"
+// import gsap from "gsap"
 import HeadText from "../components/headText"
-// import styles from "../styles/landing.module.css"
-import imagen from "../utils/images/fotorfolio.png"
-import Image from 'next/image'
+
+import BackgroundText from "../components/backgroundText"
+import SelectedProjects from "../components/selectedProject"
+import Boxmodel from "../components/boxmodel"
+import CallToAction from "../components/callToAction"
+
 
 export default function HomePage () {
 
 
     return <>
-    <div className="row">
-        <div id="fondo" className="col-5 col-lg-12 text-center">developer</div>
+    <div className="row w-100">
+        <BackgroundText />
         <HeadText />
-        {/* <div className="col-lg-6 bg-dark"> <Image style={{height: "auto"}} width={200} alt="..." src={imagen} /></div> */}
+        <SelectedProjects />
+        {/* <Boxmodel /> */}
+        <CallToAction />
         
     </div>
     </>
