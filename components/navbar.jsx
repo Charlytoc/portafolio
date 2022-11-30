@@ -1,13 +1,9 @@
 import Link from "next/link"
-
-
-// const links = [{label: "Home", route: "/"}, {label: "About", route: "/about",}]
-{/* <Link className="text-dark text-center dropdown-item" href={"/about"}>About</Link>
-    <Link className="text-dark text-center dropdown-item" href={"/"}>Home</Link> */}
+import svgito from "../utils/svg"
 
 export default function Navbar () {
     return <>
-    <div className="navigation fs-2 align-items-center mt-3 ps-3 pe-3 w-100">
+    <div className="w-100  fs-2 bg-dark align-items-center mt-3 ps-3 pe-3 navigation">
         <div className="float-start d-flex align-items-center"><ion-icon name="code-outline"></ion-icon><Link className="text-dark text-center dropdown-item boton" href={"/"}>Charly</Link>
         </div>
         <div data-bs-toggle="dropdown" className="float-end dropdown boton"><ion-icon name="grid-outline"></ion-icon></div>
