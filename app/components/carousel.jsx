@@ -1,5 +1,3 @@
-import foto from "../utils/images/fotorfolio.png"
-import Image from "next/image"
 
 export default function Carousel () {
 
@@ -12,7 +10,7 @@ export default function Carousel () {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
-        <Image src={foto} fill alt="..."/>
+        {/* <Image src={foto} fill alt="..."/> */}
       <div className="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>

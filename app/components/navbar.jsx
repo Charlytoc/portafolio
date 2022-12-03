@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link"
-import svgito from "../utils/svg"
-import logo from "../utils/logo"
+import svgito from "../../utils/svg"
+import logo from "../../utils/logo"
 import { useState } from "react"
 import Menu from "./menu"
 

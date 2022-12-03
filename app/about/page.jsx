@@ -1,30 +1,30 @@
 "use client"
 
 import { useEffect } from "react";
-import CallToAction from "../../components/callToAction";
-import Carousel from "../../components/carousel";
-import Footer from "../../components/footer";
-import JobExp from "../../components/jobExp";
+import CallToAction from "../components/callToAction";
+import Carousel from "../components/carousel";
+import Footer from "../components/footer";
+import JobExp from "../components/jobExp";
 
 
 
 export default function About () {
 
-    const jobs = [{}]
+    // const jobs = [{}]
 
-    const defineJobs = () => {
-        // if (Object.keys(jobs[0]) == 0) {
+    // const defineJobs = () => {
+    //     // if (Object.keys(jobs[0]) == 0) {
 
-        // }
-        jobs[0].title = "Seller"
-        jobs[0].business = "Shoes Liz"
-        jobs[0].time = "June 2022 - Now"
-        // jobs[1].title = "Seller"
-        // jobs[1].business = "Shoes Liz"
-        // jobs[1].time = "June 2022 - Now"
+    //     // }
+    //     jobs[0].title = "Seller"
+    //     jobs[0].business = "Shoes Liz"
+    //     jobs[0].time = "June 2022 - Now"
+    //     // jobs[1].title = "Seller"
+    //     // jobs[1].business = "Shoes Liz"
+    //     // jobs[1].time = "June 2022 - Now"
 
         
-    }
+    // }
 
     useEffect(()=>{defineJobs()}, [])
 
@@ -57,8 +57,6 @@ export default function About () {
         <p className="fs-3 grot">I've been working with professional teams in great projects</p>
         <p>You can see my last jobs in Linkedin</p>
     </div>
-    {/* <JobExp title={"Seller"} time={"June 2021 / Now"} business={"Shoes Liz"}  /> */}
-    {/* {jobExps.map((item) => <JobExp title={item.title} time={item.tiempo} business={item.empresa} />)} */}
     <div className="container w-100 my-5">
         <h2>Education</h2>
         <p className="fs-3 grot">Learning it's just a part of my life, these are the last things I've been learning</p>
