@@ -10,30 +10,9 @@ import JobExp from "../components/jobExp";
 
 export default function About () {
 
-    // const jobs = [{}]
-
-    // const defineJobs = () => {
-    //     // if (Object.keys(jobs[0]) == 0) {
-
-    //     // }
-    //     jobs[0].title = "Seller"
-    //     jobs[0].business = "Shoes Liz"
-    //     jobs[0].time = "June 2022 - Now"
-    //     // jobs[1].title = "Seller"
-    //     // jobs[1].business = "Shoes Liz"
-    //     // jobs[1].time = "June 2022 - Now"
-
-        
-    // }
-
-    useEffect(()=>{defineJobs()}, [])
 
     return <>
-    {/* Who you are
-    Job experience
-    Education
-    Hobbies: photography, painting, videogames
-    */}
+  
     <div className="container text-center w-75 my-5">
         <h2>A few words about me</h2>
         <p className="fs-3 grot">I’m Charly Chacon, a multidisciplinary developer who focuses on design an make an app works in the way who a client wants to</p>
