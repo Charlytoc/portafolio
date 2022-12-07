@@ -1,4 +1,5 @@
-
+import Image from "next/image"
+import foto from "../../public/fotorfolio.png"
 export default function Carousel () {
 
     return <>
@@ -10,14 +11,14 @@ export default function Carousel () {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
-        {/* <Image src={foto} fill alt="..."/> */}
+        <Image src="/fotorfolio.png" width={300} height={300} alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <Image src="/probando.webp" fill alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>

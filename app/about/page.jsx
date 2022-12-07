@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import CallToAction from "../components/callToAction";
 import Carousel from "../components/carousel";
 import Footer from "../components/footer";
-import JobExp from "../components/jobExp";
+// import JobExp from "../components/jobExp";
 
 
 

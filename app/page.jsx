@@ -7,6 +7,7 @@ import SelectedProjects from "./components/selectedProject"
 import CallToAction from "./components/callToAction"
 import Footer from "./components/footer"
 
+
 export default function HomePage () {
 
 
@@ -14,6 +15,10 @@ export default function HomePage () {
     <div className="row w-100">
         <BackgroundText />
         <HeadText />
+        
+        
+        
+        
         <hr></hr>
         <SelectedProjects />
         <hr></hr>
