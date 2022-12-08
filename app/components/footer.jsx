@@ -3,7 +3,7 @@ export default function Footer () {
 
 
     return <>
-    <div className="w-100 row d-flex mt-5 m-0">
+    <div className="w-100 row d-flex mt-5 m-0 ps-5">
     
         <div className="col-12 col-sm-11 d-sm-inline-block d-lg-block col-lg-4 mt-3 ms-2 me-3 mt-lg-0">
         

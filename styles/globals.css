@@ -105,6 +105,7 @@ p {
 }
 
 .clickeable:hover {
+  cursor: pointer;
   border-bottom: 1px black solid;
   color: black;
 }
@@ -131,4 +132,20 @@ p {
   height: 100vh;
   background-color: black;
   z-index: 3;
+}
+
+::placeholder {
+  color: black;
+  /* font-family: "Carlos"; */
+  opacity: 1;
+  font-size: 25px;
+
+}
+
+select {
+  color: black;
+  /* font-family: "Carlos"; */
+  opacity: 1;
+  font-size: 25px;
+
 }
