@@ -18,6 +18,7 @@ export default function Navbar () {
             <li><Link className="text-dark text-center dropdown-item boton" href={"/"}>Home</Link></li>
             <li><Link className="text-dark text-center dropdown-item boton" href={"/about"}>About</Link></li>
             <li><Link className="text-dark text-center dropdown-item boton" href={"/contact"}>Contact</Link></li>
+            <li><Link className="text-dark text-center dropdown-item boton" href={"/"}>Projects</Link></li>
 
         
     </div>

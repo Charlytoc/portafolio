@@ -149,3 +149,31 @@ select {
   font-size: 25px;
 
 }
+
+/* Hacemos que el texto aparezca por encima de todo y de forma suave al agregar esta clase */
+.visible {
+  z-index: 5;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  font-family: "Carlos";
+  font-size: 24px;
+  transition: opacity 2s !important;
+  opacity: 1;
+  
+}
+/* Propiedades iniciales que tiene el texto para que esté allí pero no se vea */
+.invisible {
+  position: absolute;
+  opacity: 0;
+}
+/* Hace que desaparezca la imagen, debido a que esta clase es agregada mediante un evento */
+.blurry {
+  filter: blur(2px);
+  opacity: 0;
+  transition: opacity 2s,  filter 2s ;
+}
+/* Hace que aparezca la imagen poniéndole estos atributos */
+.desblurry {
+  opacity: 1;
+  transition: opacity 2s;
+}
