@@ -1,7 +1,10 @@
 "use client"
 import Link from "next/link"
 import Image from "next/image"
-import vercel from "../../public/probando.webp"
+// import vercel from "../../public/probando.webp"
+import vercel from "../../public/perrito-adorable.gif"
+
+import gsap from "gsap"
 export default function HeadText () {
 
 

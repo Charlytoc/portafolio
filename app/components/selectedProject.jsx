@@ -17,9 +17,9 @@ export default function SelectedProjects () {
                 </div>
             </div>
             <div className="row">
-                <div className="position-relative col-lg-6">
+                <div className="position-relative col-lg-6 ">
                 <div onMouseEnter={()=>setMostrar(true)} 
-                className={mostrar ? "mt-3 ms-3 position-absolute visible" : "invisible blurry w-100"}>
+                className={mostrar ? "mt-3 ms-3 position-absolute visible w-75" : "invisible blurry w-75"}>
                   <small>Jun 2022 - Nov 2022</small>
                   <h2 className="fs-1">Where2Day - A social app to share experiences</h2>
                   <Link className="text-dark" href={"/projects/where2day"} >View project</Link>
@@ -30,7 +30,7 @@ export default function SelectedProjects () {
                     width={200}
                     height={300}
                     style={{
-                      maxWidth: '33%',
+                      maxWidth: '100%',
                       height: "auto"
                     }} />
                   </div>

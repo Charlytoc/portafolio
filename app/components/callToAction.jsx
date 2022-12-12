@@ -5,7 +5,7 @@ export default function CallToAction () {
         <div className="row">
             <div className="col-10 col-lg-9">
                 <small className="text-secondary">Need a developer?</small>
-                <Link href={"/contact"}><h1 className="bigfont clickeable">Let's work together</h1></Link>
+                <Link href={"/contact"}><h1 className="bigfont clickeable linksito">Let's work together</h1></Link>
                 
             </div>
         </div>
