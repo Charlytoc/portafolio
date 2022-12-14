@@ -8,7 +8,7 @@ export default function Footer () {
         <div className="col-12 col-sm-11 d-sm-inline-block d-lg-block col-lg-4 mt-3 ms-2 me-3 mt-lg-0">
         
         <h3 className="col-sm-11">Contact information —</h3>
-        <p className="text-secondary col-sm-11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nostrum deleniti porro perferendis voluptates odit, qui libero quia, itaque ab aliquid sunt consectetur dignissimos obcaecati et voluptatum fuga maxime eius.</p>
+        <p className="text-secondary col-sm-11">Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away.</p>
         <p><span className="text-secondary">E: </span> charlyjchaconc@gmail.com</p>
         <p><span className="text-secondary">P: </span> +593 964105554</p>
         </div>

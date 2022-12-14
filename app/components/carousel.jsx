@@ -1,35 +1,57 @@
 import Image from "next/image"
 import foto from "../../public/fotorfolio.png"
+import vercel from "../../public/yo.png"
+import kaka from "../../public/probando.webp"
+
 export default function Carousel () {
 
     return <>
-    <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <div id="carouselExampleDark" style={{height: "70vh"}} className="carousel  carousel-dark slide w-100" data-bs-ride="carousel">
+  <div className="carousel-indicators" >
+    <button type="button botonsillo" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="10000">
-        <Image src="/fotorfolio.png" width={300} height={300} alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+    <div className="carousel-item active h-100" data-bs-interval="10000">
+    <div className="d-flex justify-content-center h-100" style={{position: "relative"}}><Image
+        className="rounded"
+        alt="Charlytoc"
+        src={foto}
+        width={250}
+        height={100}
+        style={{
+          maxWidth: '100%',
+          height: 'auto'
+        }}
+      /></div>
+    </div> 
+    <div style={{position: "relative"}} className="carousel-item" data-bs-interval="2000">
+    <div className="d-flex justify-content-center" style={{position: "relative"}}><Image
+        className="rounded"
+        alt="Charlytoc"
+        src={vercel}
+        width={250}
+        height={700}
+        style={{
+          maxWidth: '100%',
+          height: 'auto',
+        }}
+      /></div>
     </div>
-    <div className="carousel-item" data-bs-interval="2000">
-      <Image src="/probando.webp" fill alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div  className="carousel-item imageneitor">
-      <img src="..." className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
+    <div  className="carousel-item">
+    <div className="d-flex justify-content-center" style={{position: "relative"}}><Image
+        className="rounded"
+        alt="Charlytoc"
+        src={kaka}
+        width={250}
+        height={700}
+        style={{
+          maxWidth: '100%',
+          height: 'auto',
+        }}
+      /></div>
+      
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

@@ -34,14 +34,16 @@ a {
 }
 
 #fondo {
-  /* background: linear-gradient(123deg, rgb(236, 13, 13), rgb(1,1,2)); */
-  color: rgba(220, 220, 220, 0.2);
+  color: rgba(255, 255, 255, 0.97);
   width: 100%;
-  font-size: 11rem;
-  text-shadow: 6px 6px 6px rgba(199, 199, 199, 0.825) ;
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 14rem;
+  text-shadow: 6px 6px 30px rgba(227, 227, 227, 0.825) ;
+  font-family: 'Carlos', sans-serif;
   z-index: 1;
+  letter-spacing: 5px;
   margin-bottom: 0;
+  position: absolute;
+  z-index: 0;
 }
 
 .textomenu {
@@ -72,6 +74,7 @@ a {
   font-family: "Carlos", "Monserrat";
   font-size: 10vh;
 }
+
 
 .navigation {
   position: sticky;
@@ -106,20 +109,11 @@ p {
 
 .clickeable:hover {
   cursor: pointer;
-  /* border-bottom: 1px black solid; */
+  border-bottom: 1px black solid;
   color: black;
 }
 
-.linksito:hover::before {
-  content: "";
-  width: 100%;
-  height: 20px;
-  background: rgb(174, 44, 107);
-  position: absolute;
-  top: 80%;
-  left: 20px;
-  z-index: 5;
-}
+
 
 .grot {
   font-size: 20px;
@@ -201,4 +195,9 @@ select {
   left: 0;
   z-index: 6;
   overflow-y: hidden;
+}
+#sobrefondo {
+  position: relative;
+  z-index: 3;
+  margin-top: 15%
 }
