@@ -12,9 +12,8 @@ export default function HomePage () {
 
     return <>
     <div className="row w-100">
-        
         <HeadText />
-        <div  className="pruebuta">PRUEBITA</div>
+        
         
         
         

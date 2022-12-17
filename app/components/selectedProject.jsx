@@ -6,8 +6,6 @@ import { use, useState } from "react"
 import Link from "next/link"
 export default function SelectedProjects () {
   
-  const [mostrar, setMostrar] = useState(false)
-
     return <>
         <div className='mt-5 ms-5 pt-5 container w-100'>
             <div className='row'>
@@ -18,8 +16,8 @@ export default function SelectedProjects () {
             </div>
             <div className="row">
                 <div className="position-relative col-lg-6 ">
-                <div onMouseEnter={()=>setMostrar(true)} 
-                className={mostrar ? "mt-3 ms-3 position-absolute visible w-75" : "invisible blurry w-75"}>
+                <div 
+                className="invisible blurry w-75">
                   <small>Jun 2022 - Nov 2022</small>
                   <h2 className="fs-1">Where2Day - A social app to share experiences</h2>
                   <Link className="text-dark" href={"/projects/where2day"} >View project</Link>
@@ -36,9 +34,7 @@ export default function SelectedProjects () {
                   </div>
                 </div>
                 <Image
-                onMouseEnter={()=>setMostrar(true)}
-                onMouseLeave={()=>setMostrar(false)}
-                   className={mostrar ? "rounded shadow blurry" : "rounded shadow desblurry"}
+                className="rounded shadow desblurry"
                     alt="Where2day"
                     src={vercel}
                     width={500}

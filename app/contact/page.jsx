@@ -10,10 +10,10 @@ export default function Contact () {
                 <small>CONTACT</small>
                 <h1>Get in touch - Let's work together</h1></div>
             <div><h1 className="text-secondary fs-4">ADRESS</h1>
-            <h2 className="text-dark fs-4">Damian Watracz <br />
-Os. Oświecenia 12 <br />
-31-635 Kraków <br />
-Poland, EU</h2></div>
+            <h2 className="text-dark fs-4">Charly Chacon <br />
+Guayaquil
+<br />
+Ecuador</h2></div>
         </div>
         <div className="col-lg-6">
             <div className="w-100"><p className="fs-3 w-100">Got a project? Drop me a line if you want to work together on something exciting. Big or small. Mobile or web.</p>
@@ -25,14 +25,14 @@ Poland, EU</h2></div>
                     <div className="w-100">
                     <div className="col-lg-12 mt-5 p-2"> <label className="grot d-block form-control border-0" htmlFor="service">Services</label><select name="services" className="border-0 w-100 form-control p-3 text-secondary"  id="service">
                         <option value="-1">What are you interested in?</option>
-                        <option>Probando</option>
+                        <option>Job offer</option>
                     </select></div>
                     <div className="col-lg-12 mt-5 p-2">
                     <textarea name="comments" className="form-control border-0" placeholder="What's your message?"  id="comments" cols="13" rows="8"></textarea>
                     </div>
                     <div className="col-lg-12 mt-5 p-2">
                         {/* <h1  className="fs-3 clickeable d-inline-block">✉️Send message</h1> */}
-                        <button type="submit" className="btn">TRY</button>
+                        <button type="submit" className="btn btn-lg">SEND</button>
                     </div>
 
                     

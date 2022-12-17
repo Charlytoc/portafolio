@@ -22,7 +22,10 @@ export default function Footer () {
         </div> 
         <div className="col-12 col-sm-4 col-lg-2 mt-3 ms-2 me-3 mt-sm-5 mt-lg-0"><h3>Follow me on —</h3>
         <ul className="text-secondary">
-            <Link className="clickeable" href="https://www.instagram.com/charlytoc/">Instagram</Link>
+            <Link className="clickeable d-block" href="https://www.instagram.com/charlytoc/">Instagram</Link>
+            <Link className="clickeable d-block" href="https://www.linkedin.com/in/charlytoc/">Linkedin</Link>
+            <Link className="clickeable d-block" href="https://github.com/Charlytoc">GitHub</Link>
+            {/* <Link className="clickeable" href="https://www.instagram.com/charlytoc/">Instagram</Link> */}
         </ul>
         </div>
         

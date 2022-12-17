@@ -11,6 +11,8 @@ export default function RootLayout({ children }) {
     <html>
       <head />
       <body className="w-100">
+    <div className="saludo-inicio"></div>
+
         <Navbar/>
       <div className="body2">
       
