@@ -219,3 +219,7 @@ select {
   }
 
 }
+
+.imageneitor {
+  opacity: 0;
+}

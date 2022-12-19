@@ -19,7 +19,7 @@ export default function HeadText () {
    <div id="sobrefondo"  className="col-6 col-sm-5 col-lg-5 col-xl-5 ms-5 pb-5 mb-5">
     <small className="fs-4 text-secondary">Charly Chacón</small>
     <h1 className="bigfont">Developer and web designer</h1>
-    <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas beatae possimus illo sapiente aspernatur rem consequuntur nihil adipisci doloribus, maxime reprehenderit, repellendus similique qui nam odit debitis voluptate, tempora aperiam.</p>
+    <p className="text-secondary">I am an application developer passionate about design and learning, I am always looking for new challenges and in the little free time I usually have I apply my knowledge to solve any problem.</p>
     <h4><strong>View projects</strong> or <strong><Link className="clickeable" href={"/about"}>read about me</Link></strong></h4>
    </div>
    <div className="col-5 d-none d-sm-block col-lg-6 col-xl-6">

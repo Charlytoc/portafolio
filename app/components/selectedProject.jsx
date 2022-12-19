@@ -17,12 +17,13 @@ export default function SelectedProjects () {
             <div className="row">
                 <div className="position-relative col-lg-6 ">
                 <div 
-                className="invisible blurry w-75">
+                className="w-75 position-absolute">
                   <small>Jun 2022 - Nov 2022</small>
                   <h2 className="fs-1">Where2Day - A social app to share experiences</h2>
-                  <Link className="text-dark" href={"/projects/where2day"} >View project</Link>
-                  <div className="d-flex position-relative">
+                  <Link className="text-dark imageneitor clickeable" href={"/projects/where2day"} >View project</Link>
+                  <div className=" d-flex  position-relative">
                     <Image 
+                    className="blurry"
                     src={filtros}
                     alt="filtros Where2Day"
                     width={200}
