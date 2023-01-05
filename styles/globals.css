@@ -78,8 +78,17 @@ a {
 
 .navigation {
   position: sticky;
-  top: 18px;
+  top: 0px;
   z-index: 3;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation div {
+  padding: 4vmin;
+  cursor: pointer;
+  font-size: 5vmin;
 }
 
 h3 {
@@ -222,4 +231,83 @@ select {
 
 .imageneitor {
   opacity: 0;
+}
+.menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu div {
+  position: absolute;
+  top: 4vmin;
+  right: 4vmin;
+  font-size: 5vmin;
+  opacity: 0.4;
+  
+}
+.menu div a:hover {
+  color: black;
+}
+.menu h2 {
+  font-size: 12vmin;
+  opacity: 1;
+}
+.menu h2 a:hover {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+.menu div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.selected-projects h1{
+  font-family: "Carlos", sans-serif;
+  padding: 3vmin;
+}
+.selected-projects > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1vmin ;
+  margin-left: 10vmin;
+  gap: 2vmin;
+}
+.selected-projects > div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  z-index: 2;
+}
+.selected-projects > div div h2 {
+  /* background-color: aquamarine; */
+  position: absolute;
+  font-size: 4vmin;
+  margin-top: 4vmin;
+  letter-spacing: 2px;
+  opacity: 0.5;
+  z-index: 1;
+  cursor: pointer;
+}
+.selected-projects > div div img:hover {
+  animation: appear-image 1s linear 1 forwards;
+  z-index: 0;
+}
+.selected-projects > div div div:hover ~ h2 {
+  opacity: 1;
+  color: black;
+  transition: all 1.5s;
+}
+@keyframes appear-image {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+  
 }
